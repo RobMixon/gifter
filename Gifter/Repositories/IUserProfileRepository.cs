@@ -7,5 +7,10 @@ namespace Gifter.Repositories
     {
         List<UserProfile> GetAll();
         UserProfile GetById(int id);
+        UserProfile GetWithPosts(int id);
+        void Add(UserProfile userProfile);
+        void Update(UserProfile userProfile);
+
+        void Delete(int id);
     }
 }
