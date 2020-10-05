@@ -36,7 +36,7 @@ namespace Gifter.Controllers
             }
             return Ok(userProfile);
         }
-        // single user with all their posts
+
         [HttpGet("GetWithPosts/{id}")]
         public IActionResult GetUserProfileWithComments(int id)
         {
